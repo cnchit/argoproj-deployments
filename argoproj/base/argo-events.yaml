@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: workflow-playground
-    server: cluster-a
+    name: cluster-a
   project: default
   source:
     path: argo-events

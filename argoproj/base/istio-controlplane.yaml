@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/cnchit/argoproj-deployments
     targetRevision: HEAD
   destination:
-    server: cluster-a
+    name: cluster-a
     namespace: istio-system
   project: default
   syncPolicy:

@@ -15,7 +15,7 @@ spec:
         - name: enableCRDTemplates
           value: 'true'
   destination:
-    server: cluster-a
+    name: cluster-a
     namespace: istio-operator
   project: default
   syncPolicy:

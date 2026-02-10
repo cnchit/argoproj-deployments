@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: governor
-    server: cluster-a
+    name: cluster-a
   project: default
   source:
     path: governor

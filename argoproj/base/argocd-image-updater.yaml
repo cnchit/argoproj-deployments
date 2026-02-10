@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: argocd
-    server: cluster-a
+    name: cluster-a
   project: default
   source:
     path: argocd-image-updater
