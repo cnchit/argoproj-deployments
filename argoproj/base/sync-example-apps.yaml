@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: argocd
     server: cluster-a
-  project: sync
+  project: default
   source:
     path: apps
     repoURL: https://github.com/cnchit/argocd-example-apps

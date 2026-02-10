@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: argocd
     server: cluster-a
-  project: sync
+  project: default
   source:
     path: argoproj
     repoURL: https://github.com/cnchit/argoproj-deployments
