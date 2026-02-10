@@ -7,10 +7,10 @@ spec:
   project: default
   source:
     path: cluster-config
-    repoURL: https://github.com/argoproj/argoproj-deployments
+    repoURL: https://github.com/cnchit/argoproj-deployments
     targetRevision: HEAD
   destination:
-    server: https://kubernetes.default.svc
+    server: cluster-a
     namespace: kube-system
   syncPolicy:
     syncOptions:

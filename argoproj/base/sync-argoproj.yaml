@@ -6,11 +6,11 @@ metadata:
 spec:
   destination:
     namespace: argocd
-    server: https://kubernetes.default.svc
+    server: cluster-a
   project: sync
   source:
     path: argoproj
-    repoURL: https://github.com/argoproj/argoproj-deployments
+    repoURL: https://github.com/cnchit/argoproj-deployments
     targetRevision: HEAD
   ignoreDifferences:
     # Allow to disable sync in the UI for managed applications

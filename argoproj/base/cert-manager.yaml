@@ -9,11 +9,11 @@ metadata:
 spec:
   destination:
     namespace: cert-manager
-    server: https://kubernetes.default.svc
+    server: cluster-a
   project: default
   source:
     path: cert-manager
-    repoURL: https://github.com/argoproj/argoproj-deployments
+    repoURL: https://github.com/cnchit/argoproj-deployments
     targetRevision: HEAD
   syncPolicy:
     syncOptions:

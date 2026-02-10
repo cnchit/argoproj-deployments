@@ -6,11 +6,11 @@ metadata:
 spec:
   destination:
     namespace: argocd
-    server: https://kubernetes.default.svc
+    server: cluster-a
   project: sync
   source:
     path: apps
-    repoURL: https://github.com/argoproj/argocd-example-apps
+    repoURL: https://github.com/cnchit/argocd-example-apps
     targetRevision: HEAD
   ignoreDifferences:
     # Allow to disable sync in the UI for managed applications
